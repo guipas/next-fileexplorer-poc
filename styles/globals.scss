@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary":    #78dce8,
+  "secondary":  #ab9df2,
+  "success":    #a9dc76,
+  "info":       #ffd866,
+  "warning":    #fc9867,
+  "danger":     #ff6188,
+  "light":      #ddd,
+  "dark":       #555,
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  background: #fdf9f3;
+}

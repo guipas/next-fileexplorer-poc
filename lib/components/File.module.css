@@ -1,0 +1,15 @@
+.directory {
+  cursor: pointer;
+}
+
+.directory:hover {
+  background: var(--bs-info);
+}
+
+.regular {
+  color: var(--bs-danger);
+}
+
+.hidden {
+  color: var(--bs-secondary);
+}
